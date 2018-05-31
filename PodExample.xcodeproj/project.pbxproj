@@ -13,6 +13,8 @@
 		97B4B09A20BFC999001F2F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B4B09920BFC999001F2F8B /* Assets.xcassets */; };
 		97B4B09D20BFC999001F2F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B4B09B20BFC999001F2F8B /* LaunchScreen.storyboard */; };
 		97B4B0A020BFC999001F2F8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B4B09F20BFC999001F2F8B /* main.m */; };
+		97B4B0A920BFDAE8001F2F8B /* PodObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B4B0A820BFDAE8001F2F8B /* PodObject.m */; };
+		97B4B0AC20BFDAF7001F2F8B /* PodObject1.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B4B0AB20BFDAF7001F2F8B /* PodObject1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		97B4B09C20BFC999001F2F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97B4B09E20BFC999001F2F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97B4B09F20BFC999001F2F8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97B4B0A720BFDAE8001F2F8B /* PodObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodObject.h; sourceTree = "<group>"; };
+		97B4B0A820BFDAE8001F2F8B /* PodObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodObject.m; sourceTree = "<group>"; };
+		97B4B0AA20BFDAF7001F2F8B /* PodObject1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodObject1.h; sourceTree = "<group>"; };
+		97B4B0AB20BFDAF7001F2F8B /* PodObject1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodObject1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		97B4B08F20BFC998001F2F8B /* PodExample */ = {
 			isa = PBXGroup;
 			children = (
+				97B4B0A620BFDACA001F2F8B /* TestPodFile */,
 				97B4B09020BFC998001F2F8B /* AppDelegate.h */,
 				97B4B09120BFC998001F2F8B /* AppDelegate.m */,
 				97B4B09320BFC998001F2F8B /* ViewController.h */,
@@ -69,6 +76,17 @@
 				97B4B09F20BFC999001F2F8B /* main.m */,
 			);
 			path = PodExample;
+			sourceTree = "<group>";
+		};
+		97B4B0A620BFDACA001F2F8B /* TestPodFile */ = {
+			isa = PBXGroup;
+			children = (
+				97B4B0A720BFDAE8001F2F8B /* PodObject.h */,
+				97B4B0A820BFDAE8001F2F8B /* PodObject.m */,
+				97B4B0AA20BFDAF7001F2F8B /* PodObject1.h */,
+				97B4B0AB20BFDAF7001F2F8B /* PodObject1.m */,
+			);
+			path = TestPodFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B4B0A920BFDAE8001F2F8B /* PodObject.m in Sources */,
+				97B4B0AC20BFDAF7001F2F8B /* PodObject1.m in Sources */,
 				97B4B09520BFC998001F2F8B /* ViewController.m in Sources */,
 				97B4B0A020BFC999001F2F8B /* main.m in Sources */,
 				97B4B09220BFC998001F2F8B /* AppDelegate.m in Sources */,
